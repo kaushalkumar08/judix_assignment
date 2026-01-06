@@ -134,6 +134,32 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Search_tasks",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjk1ZDExMzJkNmI0MmMyYTRkOWNiYzgwIn0sImlhdCI6MTc2NzcwODk4NiwiZXhwIjoxNzY3NzEyNTg2fQ.HXuY2YKZXmySliAYJ5aNea2Z3BaR984fVWRj0KHm4FU",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5001/api/tasks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"tasks"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
